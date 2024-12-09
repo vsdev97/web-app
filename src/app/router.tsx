@@ -5,9 +5,9 @@ import About from './pages/About';
 import NotFound from './pages/NotFound';
 
 const AppRouter: React.FC = () => (
-  <Router basename="/web-app/">
+  <Router basename="/web-app">
     <nav>
-      <Link to="/">Home</Link> | <Link to="/about">About</Link>
+      <Link to="/">Home</Link> | <Link to="/about">About us</Link>
     </nav>
     <Routes>
       <Route path="/" element={<Home />} />
