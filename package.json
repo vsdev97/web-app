@@ -1,11 +1,14 @@
 {
+  "homepage": "https://vsdev97.github.io/web-app",
   "name": "web-app",
   "private": true,
   "version": "1.0.0",
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
@@ -19,6 +22,7 @@
     "@rsbuild/plugin-react": "^1.0.7",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
+    "gh-pages": "^6.2.0",
     "typescript": "^5.7.2"
   }
 }
