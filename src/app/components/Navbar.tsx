@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import '../styles/Navbar.css';
+import '../styles/Main.css';
 
 const Navbar: React.FC = () => {
   return (
