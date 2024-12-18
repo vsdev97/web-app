@@ -22,7 +22,6 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Statistics Section */}
       <section className="stats-section" data-testid="stats-section">
         <h2>Our Impact</h2>
         <div className="stats">
@@ -41,7 +40,6 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Featured Projects Section */}
       <section className="projects-section" data-testid="projects-section">
         <h2>Featured Projects</h2>
         <div className="projects">
@@ -62,7 +60,6 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Volunteer Section */}
       <section className="volunteer-section" data-testid="volunteer-section">
         <h2>Get Involved</h2>
         <p>
