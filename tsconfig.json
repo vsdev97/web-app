@@ -3,12 +3,13 @@
     "target": "ESNext",
     "module": "ESNext",
     "jsx": "react-jsx",
+    "types": ["cypress"],
     "strict": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src", "jest-setup.ts"],
+  "include": ["src", "jest-setup.ts", "**/*.ts", "cypress/**/*.ts", "../cypress.config.ts"],
   "exclude": ["node_modules"]
 }
