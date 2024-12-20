@@ -22,8 +22,26 @@ Build the app for production:
 npm run build
 ```
 
+Run unit tests with Jest:
+
+```bash
+npm test
+```
+
+Run end-to-end tests with Cypress:
+
+```bash
+npx cypress open
+```
+
 Preview the production build locally:
 
 ```bash
-npm run deploy
+npm run preview
 ```
+
+## Additional Notes
+
+- Ensure you have all required environment variables configured for both development and production environments.
+- Jest is used for unit testing, and Cypress is used for end-to-end testing.
+- For detailed contribution guidelines, refer to the `CONTRIBUTING.md` file if available.
